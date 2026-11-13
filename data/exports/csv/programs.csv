@@ -1,0 +1,11 @@
+﻿program_id,program_name,degree_level,duration_years,department_name,status,created_at
+PRG-000001,MASTER in Computer Science,MASTER,2,Computer Science,ACTIVE,2026-11-13T14:44:28
+PRG-000002,MASTER in Information Technology,MASTER,2,Information Technology,ACTIVE,2026-11-13T14:44:28
+PRG-000003,BACHELOR in Electronics,BACHELOR,4,Electronics,ACTIVE,2026-11-13T14:44:28
+PRG-000004,BACHELOR in Mechanical,BACHELOR,4,Mechanical,ACTIVE,2026-11-13T14:44:28
+PRG-000005,BACHELOR in Civil,BACHELOR,4,Civil,ACTIVE,2026-11-13T14:44:28
+PRG-000006,BACHELOR in Electrical,BACHELOR,4,Electrical,ACTIVE,2026-11-13T14:44:28
+PRG-000007,BACHELOR in Business Administration,BACHELOR,4,Business Administration,ACTIVE,2026-11-13T14:44:28
+PRG-000008,BACHELOR in Mathematics,BACHELOR,4,Mathematics,ACTIVE,2026-11-13T14:44:28
+PRG-000009,BACHELOR in Physics,BACHELOR,4,Physics,ACTIVE,2026-11-13T14:44:28
+PRG-000010,BACHELOR in Data Science,BACHELOR,4,Data Science,ACTIVE,2026-11-13T14:44:28

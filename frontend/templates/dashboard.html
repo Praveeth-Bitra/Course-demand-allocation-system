@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Course Demand & Allocation Dashboard</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <h4>Course Demand Forecasting & Faculty Allocation System</h4>
+        <p class="sidebar-subtitle">Academic Planning System</p>
+
+        <a href="/" class="active">Dashboard</a>
+        <a href="#forecasts">Demand Forecasts</a>
+        <a href="#allocation">Faculty Allocation</a>
+        <a href="#demand">Unmet Demand</a>
+    </div>
+
+    <main class="main-content">
+
+        <div class="topbar">
+            <div>
+                <h2>Dashboard</h2>
+                <p>Course Demand Forecasting & Faculty Allocation</p>
+            </div>
+
+            <div class="term-label">
+                Academic Term: 2027 EVEN
+            </div>
+        </div>
+
+        <section class="stats-grid">
+
+            <div class="stat-card">
+                <p>Total Forecasts</p>
+                <h2>{{ forecast_count }}</h2>
+                <span>Courses analyzed</span>
+            </div>
+
+            <div class="stat-card">
+                <p>Sections Generated</p>
+                <h2>{{ section_count }}</h2>
+                <span>Proposed sections</span>
+            </div>
+
+            <div class="stat-card">
+                <p>Faculty Assignments</p>
+                <h2>{{ assignment_count }}</h2>
+                <span>Proposed assignments</span>
+            </div>
+
+            <div class="stat-card warning-card">
+                <p>Unmet Demand</p>
+                <h2>{{ unmet_demand }}</h2>
+                <span>Seats requiring attention</span>
+            </div>
+
+        </section>
+
+        <section class="content-card chart-card" id="forecasts">
+
+            <div class="section-heading">
+                <div>
+                    <h4>Course Demand Analysis</h4>
+                    <p>Top 10 courses by predicted enrollment</p>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <canvas id="forecastChart"></canvas>
+            </div>
+
+        </section>
+
+        <section class="content-card" id="allocation">
+
+            <div class="section-heading">
+                <div>
+                    <h4>Top Course Demand Forecasts</h4>
+                    <p>Predicted enrollment and model confidence</p>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+
+                <table class="table align-middle">
+
+                    <thead>
+                        <tr>
+                            <th>Course ID</th>
+                            <th>Course Name</th>
+                            <th>Predicted Enrollment</th>
+                            <th>Confidence Score</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        {% for forecast in forecasts %}
+
+                        <tr>
+                            <td>{{ forecast.course_id }}</td>
+                            <td>{{ forecast.course_name }}</td>
+                            <td>
+                                <strong>{{ forecast.predicted_enrollment }}</strong>
+                            </td>
+                            <td>{{ forecast.confidence_score }}</td>
+                        </tr>
+
+                        {% else %}
+
+                        <tr>
+                            <td colspan="4" class="text-center">
+                                No forecast records found.
+                            </td>
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <footer>
+            Course Demand Forecasting & Faculty Allocation System
+        </footer>
+
+    </main>
+
+    <script>
+        const courseLabels = {{ forecasts | map(attribute='course_id') | list | tojson }};
+        const predictedValues = {{ forecasts | map(attribute='predicted_enrollment') | list | tojson }};
+
+        const chartContext = document
+            .getElementById("forecastChart")
+            .getContext("2d");
+
+        new Chart(chartContext, {
+            type: "bar",
+
+            data: {
+                labels: courseLabels,
+
+                datasets: [{
+                    label: "Predicted Enrollment",
+                    data: predictedValues,
+                    backgroundColor: "#5276d9",
+                    borderRadius: 6,
+                    maxBarThickness: 42
+                }]
+            },
+
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: "Predicted Students"
+                        }
+                    },
+
+                    x: {
+                        title: {
+                            display: true,
+                            text: "Course ID"
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+<section class="content-card" id="demand">
+
+    <div class="section-heading">
+        <div>
+            <h4>Unmet Demand Analysis</h4>
+            <p>Courses requiring additional capacity or attention</p>
+        </div>
+    </div>
+
+    {% if unmet_records %}
+
+    <div class="table-responsive">
+        <table class="table align-middle">
+
+            <thead>
+                <tr>
+                    <th>Course ID</th>
+                    <th>Course Name</th>
+                    <th>Unmet Quantity</th>
+                    <th>Issue Type</th>
+                    <th>Resolution Status</th>
+                    <th>Created At</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for record in unmet_records %}
+                <tr>
+                    <td>{{ record.course_id }}</td>
+                    <td>{{ record.course_name }}</td>
+                    <td><strong>{{ record.unmet_quantity }}</strong></td>
+                    <td>{{ record.issue_type }}</td>
+                    <td>{{ record.resolution_status }}</td>
+                    <td>{{ record.created_at }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+
+        </table>
+    </div>
+
+    {% else %}
+
+    <div class="empty-state">
+        <h5>No Unmet Demand</h5>
+        <p>No outstanding course demand issues were recorded for this term.</p>
+        <strong>Unmet Demand: 0</strong>
+    </div>
+
+    {% endif %}
+
+</section>
+
+
+</body>
+</html>

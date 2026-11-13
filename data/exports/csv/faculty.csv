@@ -1,0 +1,51 @@
+﻿faculty_id,faculty_name,department_name,email,max_workload_hours,employment_type,status
+FAC-000001,Faculty 0001,Business Administration,faculty1@example.edu,14.0,PART_TIME,ACTIVE
+FAC-000002,Faculty 0002,Physics,faculty2@example.edu,12.0,FULL_TIME,ACTIVE
+FAC-000003,Faculty 0003,Business Administration,faculty3@example.edu,12.0,FULL_TIME,ACTIVE
+FAC-000004,Faculty 0004,Mechanical,faculty4@example.edu,18.0,PART_TIME,ACTIVE
+FAC-000005,Faculty 0005,Data Science,faculty5@example.edu,18.0,PART_TIME,ACTIVE
+FAC-000006,Faculty 0006,Mechanical,faculty6@example.edu,14.0,FULL_TIME,ACTIVE
+FAC-000007,Faculty 0007,Electronics,faculty7@example.edu,18.0,FULL_TIME,ACTIVE
+FAC-000008,Faculty 0008,Business Administration,faculty8@example.edu,12.0,PART_TIME,ACTIVE
+FAC-000009,Faculty 0009,Electronics,faculty9@example.edu,14.0,FULL_TIME,ACTIVE
+FAC-000010,Faculty 0010,Computer Science,faculty10@example.edu,12.0,FULL_TIME,ACTIVE
+FAC-000011,Faculty 0011,Mechanical,faculty11@example.edu,18.0,FULL_TIME,ACTIVE
+FAC-000012,Faculty 0012,Electronics,faculty12@example.edu,14.0,PART_TIME,ACTIVE
+FAC-000013,Faculty 0013,Mathematics,faculty13@example.edu,12.0,FULL_TIME,ACTIVE
+FAC-000014,Faculty 0014,Data Science,faculty14@example.edu,18.0,FULL_TIME,ACTIVE
+FAC-000015,Faculty 0015,Mechanical,faculty15@example.edu,12.0,FULL_TIME,ACTIVE
+FAC-000016,Faculty 0016,Mathematics,faculty16@example.edu,14.0,PART_TIME,ACTIVE
+FAC-000017,Faculty 0017,Electrical,faculty17@example.edu,18.0,FULL_TIME,ACTIVE
+FAC-000018,Faculty 0018,Electronics,faculty18@example.edu,12.0,FULL_TIME,ACTIVE
+FAC-000019,Faculty 0019,Physics,faculty19@example.edu,20.0,PART_TIME,ACTIVE
+FAC-000020,Faculty 0020,Computer Science,faculty20@example.edu,12.0,PART_TIME,ACTIVE
+FAC-000021,Faculty 0021,Business Administration,faculty21@example.edu,20.0,FULL_TIME,ACTIVE
+FAC-000022,Faculty 0022,Business Administration,faculty22@example.edu,14.0,FULL_TIME,ACTIVE
+FAC-000023,Faculty 0023,Physics,faculty23@example.edu,18.0,FULL_TIME,ACTIVE
+FAC-000024,Faculty 0024,Mechanical,faculty24@example.edu,18.0,FULL_TIME,ACTIVE
+FAC-000025,Faculty 0025,Civil,faculty25@example.edu,16.0,FULL_TIME,ACTIVE
+FAC-000026,Faculty 0026,Mechanical,faculty26@example.edu,18.0,PART_TIME,ACTIVE
+FAC-000027,Faculty 0027,Physics,faculty27@example.edu,16.0,FULL_TIME,ACTIVE
+FAC-000028,Faculty 0028,Information Technology,faculty28@example.edu,14.0,FULL_TIME,ACTIVE
+FAC-000029,Faculty 0029,Mechanical,faculty29@example.edu,18.0,FULL_TIME,ACTIVE
+FAC-000030,Faculty 0030,Business Administration,faculty30@example.edu,18.0,PART_TIME,ACTIVE
+FAC-000031,Faculty 0031,Physics,faculty31@example.edu,14.0,FULL_TIME,ACTIVE
+FAC-000032,Faculty 0032,Mathematics,faculty32@example.edu,18.0,PART_TIME,ACTIVE
+FAC-000033,Faculty 0033,Physics,faculty33@example.edu,12.0,PART_TIME,ACTIVE
+FAC-000034,Faculty 0034,Electronics,faculty34@example.edu,20.0,FULL_TIME,ACTIVE
+FAC-000035,Faculty 0035,Mathematics,faculty35@example.edu,12.0,FULL_TIME,ACTIVE
+FAC-000036,Faculty 0036,Data Science,faculty36@example.edu,20.0,FULL_TIME,ACTIVE
+FAC-000037,Faculty 0037,Mathematics,faculty37@example.edu,20.0,PART_TIME,ACTIVE
+FAC-000038,Faculty 0038,Physics,faculty38@example.edu,12.0,PART_TIME,ACTIVE
+FAC-000039,Faculty 0039,Business Administration,faculty39@example.edu,16.0,PART_TIME,ACTIVE
+FAC-000040,Faculty 0040,Electrical,faculty40@example.edu,14.0,FULL_TIME,ACTIVE
+FAC-000041,Faculty 0041,Mathematics,faculty41@example.edu,14.0,PART_TIME,ACTIVE
+FAC-000042,Faculty 0042,Electronics,faculty42@example.edu,14.0,FULL_TIME,ACTIVE
+FAC-000043,Faculty 0043,Physics,faculty43@example.edu,16.0,PART_TIME,ACTIVE
+FAC-000044,Faculty 0044,Civil,faculty44@example.edu,14.0,FULL_TIME,ACTIVE
+FAC-000045,Faculty 0045,Civil,faculty45@example.edu,12.0,PART_TIME,ACTIVE
+FAC-000046,Faculty 0046,Physics,faculty46@example.edu,20.0,PART_TIME,ACTIVE
+FAC-000047,Faculty 0047,Mechanical,faculty47@example.edu,20.0,FULL_TIME,ACTIVE
+FAC-000048,Faculty 0048,Data Science,faculty48@example.edu,18.0,FULL_TIME,ACTIVE
+FAC-000049,Faculty 0049,Computer Science,faculty49@example.edu,14.0,PART_TIME,ACTIVE
+FAC-000050,Faculty 0050,Mechanical,faculty50@example.edu,12.0,PART_TIME,ACTIVE

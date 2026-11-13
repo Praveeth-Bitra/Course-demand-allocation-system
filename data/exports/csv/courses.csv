@@ -1,0 +1,101 @@
+﻿course_id,course_name,course_code,credits,course_type,description,status,created_at
+CRS-000001,Data Structures 1,CRS-0001,2.0,ELECTIVE,Study of Data Structures,ACTIVE,2026-11-13T14:44:28
+CRS-000002,Web Development 2,CRS-0002,4.0,LAB,Study of Web Development,ACTIVE,2026-11-13T14:44:28
+CRS-000003,Operating Systems 3,CRS-0003,2.0,LAB,Study of Operating Systems,ACTIVE,2026-11-13T14:44:28
+CRS-000004,Data Structures 4,CRS-0004,2.0,LAB,Study of Data Structures,ACTIVE,2026-11-13T14:44:28
+CRS-000005,Database Management 5,CRS-0005,2.0,LAB,Study of Database Management,ACTIVE,2026-11-13T14:44:28
+CRS-000006,Cloud Computing 6,CRS-0006,2.0,LAB,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000007,Database Management 7,CRS-0007,3.0,CORE,Study of Database Management,ACTIVE,2026-11-13T14:44:28
+CRS-000008,Operating Systems 8,CRS-0008,3.0,ELECTIVE,Study of Operating Systems,ACTIVE,2026-11-13T14:44:28
+CRS-000009,Python Programming 9,CRS-0009,2.0,CORE,Study of Python Programming,ACTIVE,2026-11-13T14:44:28
+CRS-000010,Machine Learning 10,CRS-0010,3.0,CORE,Study of Machine Learning,ACTIVE,2026-11-13T14:44:28
+CRS-000011,Mathematics 11,CRS-0011,2.0,LAB,Study of Mathematics,ACTIVE,2026-11-13T14:44:28
+CRS-000012,Data Structures 12,CRS-0012,4.0,LAB,Study of Data Structures,ACTIVE,2026-11-13T14:44:28
+CRS-000013,Artificial Intelligence 13,CRS-0013,2.0,CORE,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000014,Statistics 14,CRS-0014,4.0,ELECTIVE,Study of Statistics,ACTIVE,2026-11-13T14:44:28
+CRS-000015,Database Management 15,CRS-0015,3.0,ELECTIVE,Study of Database Management,ACTIVE,2026-11-13T14:44:28
+CRS-000016,Big Data 16,CRS-0016,2.0,CORE,Study of Big Data,ACTIVE,2026-11-13T14:44:28
+CRS-000017,Cyber Security 17,CRS-0017,3.0,LAB,Study of Cyber Security,ACTIVE,2026-11-13T14:44:28
+CRS-000018,Data Structures 18,CRS-0018,2.0,CORE,Study of Data Structures,ACTIVE,2026-11-13T14:44:28
+CRS-000019,Artificial Intelligence 19,CRS-0019,2.0,ELECTIVE,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000020,Data Analytics 20,CRS-0020,2.0,CORE,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000021,Database Management 21,CRS-0021,2.0,ELECTIVE,Study of Database Management,ACTIVE,2026-11-13T14:44:28
+CRS-000022,Data Structures 22,CRS-0022,4.0,ELECTIVE,Study of Data Structures,ACTIVE,2026-11-13T14:44:28
+CRS-000023,Cloud Computing 23,CRS-0023,4.0,CORE,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000024,Big Data 24,CRS-0024,4.0,CORE,Study of Big Data,ACTIVE,2026-11-13T14:44:28
+CRS-000025,Artificial Intelligence 25,CRS-0025,2.0,LAB,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000026,Statistics 26,CRS-0026,2.0,LAB,Study of Statistics,ACTIVE,2026-11-13T14:44:28
+CRS-000027,Cloud Computing 27,CRS-0027,2.0,CORE,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000028,Mathematics 28,CRS-0028,2.0,LAB,Study of Mathematics,ACTIVE,2026-11-13T14:44:28
+CRS-000029,Machine Learning 29,CRS-0029,3.0,LAB,Study of Machine Learning,ACTIVE,2026-11-13T14:44:28
+CRS-000030,Data Analytics 30,CRS-0030,4.0,LAB,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000031,Web Development 31,CRS-0031,3.0,LAB,Study of Web Development,ACTIVE,2026-11-13T14:44:28
+CRS-000032,Python Programming 32,CRS-0032,3.0,ELECTIVE,Study of Python Programming,ACTIVE,2026-11-13T14:44:28
+CRS-000033,Python Programming 33,CRS-0033,2.0,CORE,Study of Python Programming,ACTIVE,2026-11-13T14:44:28
+CRS-000034,Mathematics 34,CRS-0034,3.0,LAB,Study of Mathematics,ACTIVE,2026-11-13T14:44:28
+CRS-000035,Operating Systems 35,CRS-0035,2.0,CORE,Study of Operating Systems,ACTIVE,2026-11-13T14:44:28
+CRS-000036,Big Data 36,CRS-0036,4.0,CORE,Study of Big Data,ACTIVE,2026-11-13T14:44:28
+CRS-000037,Statistics 37,CRS-0037,4.0,ELECTIVE,Study of Statistics,ACTIVE,2026-11-13T14:44:28
+CRS-000038,Statistics 38,CRS-0038,2.0,ELECTIVE,Study of Statistics,ACTIVE,2026-11-13T14:44:28
+CRS-000039,Big Data 39,CRS-0039,3.0,LAB,Study of Big Data,ACTIVE,2026-11-13T14:44:28
+CRS-000040,Data Structures 40,CRS-0040,4.0,ELECTIVE,Study of Data Structures,ACTIVE,2026-11-13T14:44:28
+CRS-000041,Web Development 41,CRS-0041,4.0,LAB,Study of Web Development,ACTIVE,2026-11-13T14:44:28
+CRS-000042,Mathematics 42,CRS-0042,4.0,LAB,Study of Mathematics,ACTIVE,2026-11-13T14:44:28
+CRS-000043,Data Analytics 43,CRS-0043,4.0,LAB,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000044,Mathematics 44,CRS-0044,3.0,ELECTIVE,Study of Mathematics,ACTIVE,2026-11-13T14:44:28
+CRS-000045,Big Data 45,CRS-0045,4.0,ELECTIVE,Study of Big Data,ACTIVE,2026-11-13T14:44:28
+CRS-000046,Artificial Intelligence 46,CRS-0046,4.0,ELECTIVE,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000047,Cyber Security 47,CRS-0047,4.0,LAB,Study of Cyber Security,ACTIVE,2026-11-13T14:44:28
+CRS-000048,Artificial Intelligence 48,CRS-0048,4.0,LAB,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000049,Software Engineering 49,CRS-0049,3.0,CORE,Study of Software Engineering,ACTIVE,2026-11-13T14:44:28
+CRS-000050,Machine Learning 50,CRS-0050,4.0,CORE,Study of Machine Learning,ACTIVE,2026-11-13T14:44:28
+CRS-000051,Cloud Computing 51,CRS-0051,4.0,ELECTIVE,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000052,Cloud Computing 52,CRS-0052,2.0,LAB,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000053,Python Programming 53,CRS-0053,2.0,LAB,Study of Python Programming,ACTIVE,2026-11-13T14:44:28
+CRS-000054,Cyber Security 54,CRS-0054,3.0,LAB,Study of Cyber Security,ACTIVE,2026-11-13T14:44:28
+CRS-000055,Operating Systems 55,CRS-0055,3.0,LAB,Study of Operating Systems,ACTIVE,2026-11-13T14:44:28
+CRS-000056,Data Analytics 56,CRS-0056,4.0,CORE,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000057,Cyber Security 57,CRS-0057,4.0,CORE,Study of Cyber Security,ACTIVE,2026-11-13T14:44:28
+CRS-000058,Software Engineering 58,CRS-0058,4.0,ELECTIVE,Study of Software Engineering,ACTIVE,2026-11-13T14:44:28
+CRS-000059,Statistics 59,CRS-0059,4.0,LAB,Study of Statistics,ACTIVE,2026-11-13T14:44:28
+CRS-000060,Machine Learning 60,CRS-0060,2.0,ELECTIVE,Study of Machine Learning,ACTIVE,2026-11-13T14:44:28
+CRS-000061,Data Structures 61,CRS-0061,4.0,LAB,Study of Data Structures,ACTIVE,2026-11-13T14:44:28
+CRS-000062,Python Programming 62,CRS-0062,4.0,ELECTIVE,Study of Python Programming,ACTIVE,2026-11-13T14:44:28
+CRS-000063,Data Analytics 63,CRS-0063,4.0,ELECTIVE,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000064,Database Management 64,CRS-0064,2.0,ELECTIVE,Study of Database Management,ACTIVE,2026-11-13T14:44:28
+CRS-000065,Artificial Intelligence 65,CRS-0065,2.0,ELECTIVE,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000066,Cyber Security 66,CRS-0066,2.0,LAB,Study of Cyber Security,ACTIVE,2026-11-13T14:44:28
+CRS-000067,Web Development 67,CRS-0067,2.0,CORE,Study of Web Development,ACTIVE,2026-11-13T14:44:28
+CRS-000068,Big Data 68,CRS-0068,3.0,LAB,Study of Big Data,ACTIVE,2026-11-13T14:44:28
+CRS-000069,Artificial Intelligence 69,CRS-0069,3.0,LAB,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000070,Data Analytics 70,CRS-0070,3.0,CORE,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000071,Operating Systems 71,CRS-0071,4.0,CORE,Study of Operating Systems,ACTIVE,2026-11-13T14:44:28
+CRS-000072,Machine Learning 72,CRS-0072,2.0,ELECTIVE,Study of Machine Learning,ACTIVE,2026-11-13T14:44:28
+CRS-000073,Software Engineering 73,CRS-0073,2.0,ELECTIVE,Study of Software Engineering,ACTIVE,2026-11-13T14:44:28
+CRS-000074,Database Management 74,CRS-0074,2.0,CORE,Study of Database Management,ACTIVE,2026-11-13T14:44:28
+CRS-000075,Cloud Computing 75,CRS-0075,2.0,CORE,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000076,Statistics 76,CRS-0076,3.0,ELECTIVE,Study of Statistics,ACTIVE,2026-11-13T14:44:28
+CRS-000077,Machine Learning 77,CRS-0077,4.0,ELECTIVE,Study of Machine Learning,ACTIVE,2026-11-13T14:44:28
+CRS-000078,Artificial Intelligence 78,CRS-0078,4.0,ELECTIVE,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000079,Software Engineering 79,CRS-0079,2.0,CORE,Study of Software Engineering,ACTIVE,2026-11-13T14:44:28
+CRS-000080,Database Management 80,CRS-0080,4.0,LAB,Study of Database Management,ACTIVE,2026-11-13T14:44:28
+CRS-000081,Cloud Computing 81,CRS-0081,4.0,CORE,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000082,Cloud Computing 82,CRS-0082,2.0,CORE,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000083,Computer Networks 83,CRS-0083,2.0,LAB,Study of Computer Networks,ACTIVE,2026-11-13T14:44:28
+CRS-000084,Cloud Computing 84,CRS-0084,3.0,ELECTIVE,Study of Cloud Computing,ACTIVE,2026-11-13T14:44:28
+CRS-000085,Artificial Intelligence 85,CRS-0085,3.0,ELECTIVE,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000086,Python Programming 86,CRS-0086,4.0,CORE,Study of Python Programming,ACTIVE,2026-11-13T14:44:28
+CRS-000087,Data Analytics 87,CRS-0087,2.0,LAB,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000088,Big Data 88,CRS-0088,2.0,ELECTIVE,Study of Big Data,ACTIVE,2026-11-13T14:44:28
+CRS-000089,Data Analytics 89,CRS-0089,4.0,ELECTIVE,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000090,Software Engineering 90,CRS-0090,2.0,ELECTIVE,Study of Software Engineering,ACTIVE,2026-11-13T14:44:28
+CRS-000091,Data Analytics 91,CRS-0091,4.0,LAB,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000092,Data Analytics 92,CRS-0092,2.0,CORE,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28
+CRS-000093,Cyber Security 93,CRS-0093,2.0,CORE,Study of Cyber Security,ACTIVE,2026-11-13T14:44:28
+CRS-000094,Mathematics 94,CRS-0094,4.0,LAB,Study of Mathematics,ACTIVE,2026-11-13T14:44:28
+CRS-000095,Mathematics 95,CRS-0095,3.0,CORE,Study of Mathematics,ACTIVE,2026-11-13T14:44:28
+CRS-000096,Big Data 96,CRS-0096,2.0,LAB,Study of Big Data,ACTIVE,2026-11-13T14:44:28
+CRS-000097,Web Development 97,CRS-0097,4.0,LAB,Study of Web Development,ACTIVE,2026-11-13T14:44:28
+CRS-000098,Computer Networks 98,CRS-0098,2.0,LAB,Study of Computer Networks,ACTIVE,2026-11-13T14:44:28
+CRS-000099,Artificial Intelligence 99,CRS-0099,3.0,CORE,Study of Artificial Intelligence,ACTIVE,2026-11-13T14:44:28
+CRS-000100,Data Analytics 100,CRS-0100,3.0,LAB,Study of Data Analytics,ACTIVE,2026-11-13T14:44:28

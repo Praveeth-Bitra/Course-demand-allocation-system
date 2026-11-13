@@ -1,0 +1,76 @@
+[
+    {
+        "anomaly_id": "ANM-001",
+        "anomaly_type": "FACULTY_SKILL_MISMATCH",
+        "description": "A faculty member is assigned to a course outside their skill set.",
+        "test_input": {
+            "faculty_id": "TEST-FAC-001",
+            "course_id": "TEST-CRS-001",
+            "faculty_has_course_skill": false
+        },
+        "expected_result": "REJECTED",
+        "ground_truth": "Faculty does not have the required course skill.",
+        "detected": true,
+        "validation_status": "PASS"
+    },
+    {
+        "anomaly_id": "ANM-002",
+        "anomaly_type": "WORKLOAD_EXCEEDED",
+        "description": "A faculty member is assigned more hours than their maximum workload.",
+        "test_input": {
+            "faculty_id": "TEST-FAC-002",
+            "maximum_workload": 16,
+            "current_workload": 15,
+            "additional_assigned_hours": 3
+        },
+        "expected_result": "REJECTED",
+        "ground_truth": "Total assigned workload would become 18 hours, exceeding the limit of 16.",
+        "detected": true,
+        "validation_status": "PASS"
+    },
+    {
+        "anomaly_id": "ANM-003",
+        "anomaly_type": "SECTION_CAPACITY_TOO_LOW",
+        "description": "The available section capacity is lower than forecast demand.",
+        "test_input": {
+            "course_id": "TEST-CRS-003",
+            "forecast_demand": 80,
+            "section_capacity": 50
+        },
+        "expected_result": "INSUFFICIENT_CAPACITY",
+        "ground_truth": "The section has a shortage of 30 seats.",
+        "detected": true,
+        "validation_status": "PASS"
+    },
+    {
+        "anomaly_id": "ANM-004",
+        "anomaly_type": "PREREQUISITE_SCHEDULING_VIOLATION",
+        "description": "A course is scheduled before its prerequisite course.",
+        "test_input": {
+            "course_id": "CRS-000007",
+            "prerequisite_course_id": "CRS-000006",
+            "course_section_id": "SEC-2027-000012",
+            "course_start": "2027-01-11 11:00:00",
+            "prerequisite_section_id": "SEC-2027-000010",
+            "prerequisite_start": "2027-01-13 14:00:00"
+        },
+        "expected_result": "SCHEDULING_VIOLATION",
+        "ground_truth": "Course CRS-000007 is scheduled before prerequisite CRS-000006. The prerequisite section starts later.",
+        "detected": true,
+        "validation_status": "PASS"
+    },
+    {
+        "anomaly_id": "ANM-005",
+        "anomaly_type": "DUPLICATE_FACULTY_ASSIGNMENT",
+        "description": "The same faculty member is assigned to the same section more than once.",
+        "test_input": {
+            "faculty_id": "TEST-FAC-005",
+            "section_id": "TEST-SEC-005",
+            "assignment_count": 2
+        },
+        "expected_result": "DUPLICATE_DETECTED",
+        "ground_truth": "The same faculty member has two assignment records for the same section.",
+        "detected": true,
+        "validation_status": "PASS"
+    }
+]
